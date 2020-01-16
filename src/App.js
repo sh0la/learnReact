@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Table from './Table';
+import Tablehead from './Tablehead'
 
 removeCharacter = index => {
   const { characters } = this.state
